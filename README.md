@@ -1,6 +1,6 @@
 # Compass-PB-NOV2024-Linux
 
-Atividade pede que para Criar um ambiente Linux no Windows:
+Atividade pede para Criar um ambiente Linux no Windows:
 Utilizando o WSL do Windows, crie um
 subsistema do Ubuntu 20.04 ou
 superior.
@@ -11,6 +11,7 @@ Abaixo nesse readme estão os passos para instalar o Ubuntu usando o PowerShell:
 Precisa abrir o Powershell como admin.
 
 Clique com o botão direito do menu iniciar e selecione o powershell
+Com ele aberto digite o comando abaixo.
 
 `wsl --install ` 
 
