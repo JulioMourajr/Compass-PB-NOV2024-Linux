@@ -114,6 +114,17 @@ Adicione tags para organizar e gerenciar seus recursos.
 
 Seguindo esses passos, você terá uma instância EC2 criada e associada a um IP elástico, pronta para uso.
 
+Para se conectar com a instancia via SSH.
+
+No terminal, navegue até o diretório onde o arquivo de chave está localizado e execute:
+
+
+```sh
+chmod 400 chaveGerada.pem
+
+ssh -i chaveGerada.pem ec2-user@<ippublicoEC2>
+```
+
 Para saber se tá com acesso a internet pode rodar o comando:
 
 ```
