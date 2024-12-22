@@ -212,5 +212,9 @@ Vai verificar o status do nginx a cada 5 minutos.
 
 # Observabilidade
 
-Poderia criar uma aplicação para observar se esse arquivo de log está corretamente no diretório e "avisar" em um canal no telegram, discord, slack. 
+Poderia criar uma aplicação para observar se esse arquivo de log está corretamente no diretório e "avisar" quando o nginx está offline em um canal no telegram, discord, slack. 
 Utilizando tecnologias como Prometheus e Grafana.
+
+# IAC
+
+Subir a infra estrutura utlizando Terraform e utilizar um user data para automatizar o processo de instalação e utilização do script.
