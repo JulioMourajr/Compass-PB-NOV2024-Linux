@@ -209,6 +209,8 @@ Para editar o crontab:
 
 Vai verificar o status do nginx a cada 5 minutos.
 
+![Infra](./AtividadeCompassNginx.jpeg)
+
 ## Melhorias
 
 # Observabilidade
